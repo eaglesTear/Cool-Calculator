@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div>
+        <div id="output-area">0</div>
+        <div class="calc-container">
+            <button type="button" onclick="toggleColour()">CHANGE DISPLAY COLOUR</button>
+            <button type="button" onclick="activatePerc()">TOGGLE<br>%</button>
+            <button type="button" onclick="calc(this)">CE</button>
+            <button type="button" onclick="backspace()">
+                <img src="002-back.svg" alt="backspace arrow" />
+            </button>
+            <button type="button" onclick="calc(this)">7</button>
+            <button type="button" onclick="calc(this)">8</button>
+            <button type="button" onclick="calc(this)">9</button>
+            <button type="button" onclick="calc(this)">/</button>
+            <button type="button" onclick="calc(this)">4</button>
+            <button type="button" onclick="calc(this)">5</button>
+            <button type="button" onclick="calc(this)">6</button>
+            <button type="button" onclick="calc(this)">*</button>
+            <button type="button" onclick="calc(this)">1</button>
+            <button type="button" onclick="calc(this)">2</button>
+            <button type="button" onclick="calc(this)">3</button>
+            <button type="button" onclick="calc(this)">-</button>
+            <button type="button" onclick="calc(this)">.</button>
+            <button type="button" onclick="calc(this)">0</button>
+            <button type="button" onclick="calc(this)">=</button>
+            <button type="button" onclick="calc(this)">+</button>
+        </div>
+    </div>
+
+    <div id="percentage-calc-area">
+        Input Number<input type="number" placeholder="Number" id="user-input">
+        Percentage<input type="number" placeholder="% value of number" id="percentage">
+        Result<input type="text" placeholder="Click button below" id="result">
+        <button class="styling-calc-button" type="button" onclick="calcPercentage()">
+            CALCULATE PERCENTAGE
+        </button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
