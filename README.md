@@ -1,3 +1,6 @@
+![calculator](https://user-images.githubusercontent.com/68791163/135514088-263bda6e-58f9-4e5a-982f-f2590c41c5f0.PNG)
+
+
 # Cool-Calculator
 A simple, nicely-styled and standard functioning calculator with a button to display an additional percentage calculator at the side.
 
